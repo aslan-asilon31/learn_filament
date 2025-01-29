@@ -18,14 +18,14 @@ use Illuminate\Routing\Middleware\SubstituteBindings;
 use Illuminate\Session\Middleware\StartSession;
 use Illuminate\View\Middleware\ShareErrorsFromSession;
 
-class PanelProvider1 extends PanelProvider
+class PanelProviderCustomer extends PanelProvider
 {
     public function panel(Panel $panel): Panel
     {
         return $panel
             ->default()
-            ->id('1')
-            ->path('1')
+            ->id('Customer')
+            ->path('Customer')
             ->login()
             ->colors([
                 'primary' => Color::Amber,

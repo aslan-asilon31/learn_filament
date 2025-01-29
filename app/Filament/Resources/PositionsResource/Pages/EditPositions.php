@@ -1,20 +1,20 @@
 <?php
 
-namespace App\Filament\Resources\CategoryResource\Pages;
+namespace App\Filament\Resources\PositionsResource\Pages;
 
-use App\Filament\Resources\CategoryResource;
+use App\Filament\Resources\PositionsResource;
 use Filament\Actions;
 use Filament\Resources\Pages\EditRecord;
 
-class EditCategory extends EditRecord
+class EditPositions extends EditRecord
 {
-    protected static string $resource = CategoryResource::class;
+    protected static string $resource = PositionsResource::class;
 
     protected function getRedirectUrl(): string
     {
         return $this->getResource()::getUrl('index');
     }
-
+    
     protected function getHeaderActions(): array
     {
         return [

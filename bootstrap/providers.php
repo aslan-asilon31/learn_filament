@@ -2,5 +2,6 @@
 
 return [
     App\Providers\AppServiceProvider::class,
-    App\Providers\Filament\PanelProvider1::class,
+    App\Providers\Filament\PanelProviderAdmin::class,
+    App\Providers\Filament\PanelProviderCustomer::class,
 ];

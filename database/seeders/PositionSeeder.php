@@ -15,8 +15,8 @@ class PositionSeeder extends Seeder
   {
     $records = [
       [
-        'id' => str('Developer')->slug('_'),
-        'name' => 'Developer',
+        'id' => str('Developer1')->slug('_'),
+        'name' => 'Developer1',
         'created_by' => 'system',
         'updated_by' => 'system',
         'created_at' => now(),
@@ -24,8 +24,8 @@ class PositionSeeder extends Seeder
         'is_activated' => true,
       ],
       [
-        'id' => str('Admin')->slug('_'),
-        'name' => 'Admin',
+        'id' => str('Admin1')->slug('_'),
+        'name' => 'Admin1',
         'created_by' => 'system',
         'updated_by' => 'system',
         'created_at' => now(),
